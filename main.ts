@@ -7,6 +7,7 @@ input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
 })
 input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
     game.setLife(10)
+    basic.showString("Los!")
     Dino = game.createSprite(1, 4)
     for (let index = 0; index < 50; index++) {
         Kaktus = game.createSprite(4, 4)
