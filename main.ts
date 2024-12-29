@@ -29,4 +29,5 @@ input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
         Kaktus.change(LedSpriteProperty.X, -1)
         Kaktus.delete()
     }
+    basic.showString("Du hast gewonnen!")
 })
